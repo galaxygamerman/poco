@@ -135,7 +135,8 @@ lib/
 lib64/
 pocomsg.h
 **/UpgradeLog*.XML
-/out/build/x64-Debug
+/out/
+!/out/build/Release
 .vs/
 vcpkg_installed/
 
