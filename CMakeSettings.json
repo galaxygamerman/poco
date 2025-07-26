@@ -7,7 +7,7 @@
       "inheritEnvironments": [ "msvc_x64_x64" ],
       "buildRoot": "${projectDir}\\out\\build\\${name}",
       "installRoot": "${projectDir}\\out\\install\\${name}",
-      "cmakeCommandArgs": "-DPostgreSQL_LIBRARY=\"C:\\PostgreSQL\\17\\lib\\libpq.lib\" -DPostgreSQL_INCLUDE_DIR=\"C:\\PostgreSQL\\17\\include\" -DENABLE_DATA_POSTGRESQL=\"ON\"",
+      "cmakeCommandArgs": "-DPostgreSQL_LIBRARY=\"C:\\PostgreSQL\\17\\lib\\libpq.lib\" -DPostgreSQL_INCLUDE_DIR=\"C:\\PostgreSQL\\17\\include\" -DENABLE_DATA_POSTGRESQL=\"ON\" -DBUILD_SHARED_LIBS=OFF -DPOCO_MT=ON",
       "buildCommandArgs": "",
       "ctestCommandArgs": ""
     },
@@ -17,7 +17,7 @@
       "configurationType": "Release",
       "buildRoot": "${projectDir}\\out\\build\\${name}",
       "installRoot": "${projectDir}\\out\\install\\${name}",
-      "cmakeCommandArgs": "-DPostgreSQL_LIBRARY=\"C:\\PostgreSQL\\17\\lib\\libpq.lib\" -DPostgreSQL_INCLUDE_DIR=\"C:\\PostgreSQL\\17\\include\" -DENABLE_DATA_POSTGRESQL=\"ON\"",
+      "cmakeCommandArgs": "-DPostgreSQL_LIBRARY=\"C:\\PostgreSQL\\17\\lib\\libpq.lib\" -DPostgreSQL_INCLUDE_DIR=\"C:\\PostgreSQL\\17\\include\" -DENABLE_DATA_POSTGRESQL=\"ON\" -DBUILD_SHARED_LIBS=OFF -DPOCO_MT=ON",
       "buildCommandArgs": "",
       "ctestCommandArgs": "",
       "inheritEnvironments": [ "msvc_x64_x64" ]
